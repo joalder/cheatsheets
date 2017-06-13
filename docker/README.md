@@ -30,7 +30,7 @@ f445927fa494=172.17.0.2
 ``` 
 
 Cleanup got a whole lot easier since 1.13! Instead of the piped dangling=true calls one can now:
-```
+```shell
 docker system prune
 docker container prune
 docker image prune
@@ -39,7 +39,7 @@ docker network prune
 ```
 
 For reference, pre 1.13 this would have looked like
-```
+```shell
 # Remove dead containers
 docker ps -f status=dead --format '{{ .ID }}' | xargs -r docker rm -v
 # Remove dangling volumes
