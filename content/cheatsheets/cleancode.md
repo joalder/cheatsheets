@@ -1,3 +1,9 @@
++++
+date = "2017-06-15T15:21:32+02:00"
+draft = false
+title = "Clean Code"
++++
+
 # Clean Code
 
 This is a summary of the most important and revealing topics from my point of view. These have, for now, 

@@ -1,3 +1,9 @@
++++
+date = "2017-06-14T14:21:44+02:00"
+draft = false
+title = "Docker"
++++
+
 # Docker
 Platform & Version: Docker for Windows, Docker 1.17 unless otherwise noted. Some commands require a bash compatible shell.
 
