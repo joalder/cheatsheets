@@ -1,6 +1,8 @@
 # Clean Code
 
-This is a summary of the most important and revealing topics from my point of view. These have, for now, been gathered from the _official_ Clean Code books by *Uncle Bob* (Robert C. Martin).
+This is a summary of the most important and revealing topics from my point of view. These have, for now, 
+been gathered from the _official_ Clean Code books by *Uncle Bob* (Robert C. Martin). 
+Quotes indicate literal sections from these books.
 
 Clean Code: A Handbook of Agile Software Craftsmanship (ISBN-13: 978-0132350884)
 
@@ -82,7 +84,13 @@ Nice idea to validate possible use, ensure functionality and learn the API of th
 
 ## Testing
 
+Build - Operate - Check should be clearly visible when looking at tests
+
 ### The three laws of TDD
+
+> 1. You may not write production code until you have written a failing unit test.
+> 2. You may not write mor of a unit test than is sufficient to fail, and not compiling is failing.
+> 3. You may not write more production code than is sufficient to pass the currently failing test.
 
 ## Logging 
 A log message without a dynamic component (think placeholder) is useless.
