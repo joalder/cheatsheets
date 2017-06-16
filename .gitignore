@@ -44,3 +44,5 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+# The built hugo page lives in a submodule
+public
