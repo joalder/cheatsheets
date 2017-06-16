@@ -38,10 +38,12 @@ If there are such long lists of variables or assignments it's probably a hint to
 ## Objects & Data Structures
 
 Nice differentiation about data vs. object 
+
 > Procedural code (code using data structures) makes it easy to add new functions without changing the existing data structures. 
 > OO code, on the other hand, makes it easy to add new classes without changing existing functions.
 
 Complement:
+
 > Procedural code makes it hard to add new data structures because all the functions must change. 
 > OO code makes it hard to add new functions because all the classes must change.
 
