@@ -4,6 +4,8 @@ title = "Jeatsheets"
 
 theme = "docdock"
 
+PygmentsCodeFences = true
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 

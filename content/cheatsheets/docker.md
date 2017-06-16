@@ -17,15 +17,15 @@ just adding even an external one, seems to kill the Wi-Fi interface. So what has
 
 ## Container management
 Find the IP address of a running container
-```
+```bash
  docker inspect <container> -f "{{ .NetworkSettings.IPAddress }}"
 ```
 Filtering inspect inspect is achieved with [GO templating](https://golang.org/pkg/text/template/).
-```
+```bash
 # Combine with static text
 docker inspect storage -f "The container {{.Config.Hostname}}{{.Name}} has IP {{ .NetworkSettings.IPAddress }}"
 
-# Or techy for all containers for later reuse
+# Or techie for all containers for later reuse
 docker inspect $(docker ps|awk '{print $1}'|grep -iv container) -f "{{.Config.Hostname}}={{ .NetworkSettings.IPAddress }}"
 f445927fa494=172.17.0.2
 
@@ -35,7 +35,7 @@ f445927fa494=172.17.0.2
 ``` 
 
 Cleanup got a whole lot easier since 1.13! Instead of the piped dangling=true calls one can now:
-```
+```bash
 docker system prune
 docker container prune
 docker image prune
@@ -44,7 +44,7 @@ docker network prune
 ```
 
 For reference, pre 1.13 this would have looked like
-```
+```bash
 # Remove dead containers
 docker ps -f status=dead --format '{{ .ID }}' | xargs -r docker rm -v
 # Remove dangling volumes
