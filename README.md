@@ -1,7 +1,11 @@
 # Cheatsheets Collection
 
-What the title says, split up into different technologies, principles or methods. 
+Well this grew to a personal, hugo powered, site. 
 
-Obviously the content is not just a copy of existing stuff. If good collections exist already, they are referenced.
+For now, the content will mainly be the cheat sheet stuff.
 
-This could probably also be moved to the wiki section of github, we'll see..
+
+## How to create content
+
+
+## How to publish to GitHub pages
