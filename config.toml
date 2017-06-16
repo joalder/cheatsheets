@@ -1,3 +1,22 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Jeatsheets"
+
+theme = "docdock"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-github'></i> My Github"
+identifier = "ds"
+url = "https://github.com/joalder"
+weight = 1
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-bookmark'></i> Hugo Docs"
+identifier = "hugodoc"
+url = "https://gohugo.io/"
+weight = 2

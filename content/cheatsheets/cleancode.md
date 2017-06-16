@@ -4,8 +4,6 @@ draft = false
 title = "Clean Code"
 +++
 
-# Clean Code
-
 This is a summary of the most important and revealing topics from my point of view. These have, for now, 
 been gathered from the _official_ Clean Code books by *Uncle Bob* (Robert C. Martin). 
 Quotes indicate literal sections from these books.

@@ -4,7 +4,6 @@ draft = false
 title = "Docker"
 +++
 
-# Docker
 Platform & Version: Docker for Windows, Docker 1.17 unless otherwise noted. Some commands require a bash compatible shell.
 
 ## Setup
