@@ -92,11 +92,42 @@ Nice idea to validate possible use, ensure functionality and learn the API of th
 
 Build - Operate - Check should be clearly visible when looking at tests
 
+A (unit)test should be **fast** to execute, **independent** of each other, **repeatable** in any environment, 
+**self-validating** meaning they should know if they passed or failed and **timely** written.
+
 ### The three laws of TDD
 
 > 1. You may not write production code until you have written a failing unit test.
 > 2. You may not write mor of a unit test than is sufficient to fail, and not compiling is failing.
 > 3. You may not write more production code than is sufficient to pass the currently failing test.
+
+### Single Assert
+Some say, that there should only be a single assert per test. However this can lead to a violation of the DRY principle. 
+Probably better to say that the number of asserts should be minimized.
+
+## Classes
+
+### Basic Layout by Java Convention
+```java
+public class Layout {
+    public static final String CONSTANT = "CONSTANT";
+    private static String variable;
+    private int counter;
+    
+    public void doStuff(){
+        util();
+    }
+    
+    private void util(){
+        // Do more stuff
+    }
+    
+    public void doOtherStuff(){
+        // Other stuff
+    }
+    
+}
+```
 
 ## Logging 
 A log message without a dynamic component (think placeholder) is useless.
