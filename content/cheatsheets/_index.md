@@ -1,7 +1,7 @@
 +++
 date = "2017-06-16T10:32:35+02:00"
 description = "Technologies, Principles and Methods distilled"
-title = "Cheatsheets Collection"
+title = "Cheat Sheet Collection"
 
 +++
 
