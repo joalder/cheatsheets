@@ -107,7 +107,8 @@ Probably better to say that the number of asserts should be minimized.
 
 ## Classes
 
-### Basic Layout by Java Convention
+### Basic Layout
+By Example:
 ```java
 public class Layout {
     public static final String CONSTANT = "CONSTANT";
@@ -128,6 +129,20 @@ public class Layout {
     
 }
 ```
+This follows the newspaper approach, the whole class should read like a story, from very general to the last detail
+
+### Responsibilities
+Responsibilities of a class should be minimized. 
+
+> We should also be able to write  a brief description of the class in about 25 words, withouth using the workds "if", "and", "or" or "but".
+
+SRP says:
+
+> ... a class or module should have one, and only one, reason to change!
+
+### Cohesion
+The more variables of a class its methods use, the more cohesion is there. Cohesion should be high.
+Keeping functions small and parameter lists short, can reveal a grouping of functions and variables. This is a perfect opportunity to split the class.
 
 ## Logging 
 A log message without a dynamic component (think placeholder) is useless.
